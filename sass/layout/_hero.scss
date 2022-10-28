@@ -1,0 +1,87 @@
+.hero {
+  padding: 48px 13px;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(251, 252, 253, 0.2), rgba(249, 249, 252, 0.2)),
+  url(../images/mobile/Rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+  // @media screen and (min-width: 480px) {
+  //   width: 480px;
+  // }
+
+  @media screen and (min-width: 800px) {
+    background-image: linear-gradient(to right, rgba(251, 252, 253, 0.2), rgba(249, 249, 252, 0.2)),
+  url(../images/tablet/Rectangle.jpg);
+    padding: 64px 65px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(to right, rgba(251, 252, 253, 0.2), rgba(249, 249, 252, 0.2)),
+  url(../images/desctop/Rectangle.jpg);
+    padding: 64px 122px 132px 64px;
+  }
+}
+.hero-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.21;
+  text-align: center;
+  color: #714787;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 112px;
+    font-size: 64px;
+    line-height: 1.22;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 163px;
+    font-size: 80px;
+    line-height: 1.22;
+  }
+}
+
+.btn--hero {
+  display: block;
+  background-color: var(--primary-color);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 9px;
+  border-radius: 100px;
+  
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  @media screen and (min-width: 800px) {
+    padding: 30px 63px;
+    font-size: 32px;
+    line-height: 1.22;
+
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 23px 27px;
+    font-size: 28px;
+line-height: 1.21;
+  }
+}

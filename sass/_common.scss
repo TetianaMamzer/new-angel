@@ -1,0 +1,12 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  font-family: 'Comfortaa', cursive;
+  // letter-spacing: 0.03em;
+
+  // &.modal-open {
+  //   overflow: hidden;
+  // }
+}
