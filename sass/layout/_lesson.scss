@@ -1,0 +1,62 @@
+.lesson {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(251, 252, 253, 0.4), rgba(249, 249, 252, 0.4)),
+  url(../images/mobile/Rectangle4.jpg);
+  @media screen and (min-width: 800px) {
+    background-image: linear-gradient(to right, rgba(251, 252, 253, 0.4), rgba(249, 249, 252, 0.4)),
+  url(../images/tablet/Rectangle4.jpg);
+  padding-top: 56px;
+  padding-bottom: 56px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(to right, rgba(251, 252, 253, 0.4), rgba(249, 249, 252, 0.4)),
+  url(../images/desctop/Rectangle4.jpg);
+    padding-bottom: 125px;
+  }
+}
+
+.lesson_title {
+  font-size: 24px;
+line-height: 1.13;
+text-align: center;
+color: #FFFFFF;
+-webkit-text-stroke: 1px #604071;
+margin-bottom: 10px;
+
+@media screen and (min-width: 800px) {
+  margin-bottom: 35px;
+  font-size: 48px;
+line-height: 1.13;
+}
+@media screen and (min-width: 1200px) {
+  margin-bottom: 30px;
+  font-size: 88px;
+line-height: 1.13;
+}
+}
+
+.lesson_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.lesson_list {
+  margin-bottom: 10px;
+  font-size: 8px;
+line-height: 1.13;
+ 
+@media screen and (min-width: 800px) {
+  font-size: 16px;
+line-height: 1.13;
+
+}
+@media screen and (min-width: 1200px) {
+  font-size: 28px;
+  line-height: 1.11;
+}
+}
