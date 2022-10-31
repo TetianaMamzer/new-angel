@@ -60,3 +60,17 @@ line-height: 1.13;
   line-height: 1.11;
 }
 }
+.--video {
+  @media screen and (max-width: 800px) {
+ width: 200px;
+ height: 150px;
+ margin-right: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 560px;
+    height: 315px;
+    margin-right: 20px;
+  
+  }
+
+}

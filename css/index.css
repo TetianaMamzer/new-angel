@@ -846,6 +846,21 @@ img {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .--video {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .--video {
+    width: 560px;
+    height: 315px;
+    margin-right: 20px;
+  }
+}
+
 .quastions {
   padding-top: 16px;
   padding-bottom: 16px;
